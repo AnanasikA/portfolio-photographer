@@ -1,0 +1,49 @@
+/* Stylizacja stopki */
+.footer {
+    background-color: #2d3748;
+    padding: 2rem;
+    color: #e2e8f0;
+  }
+  
+  /* Tekst w stopce */
+  .footer-text {
+    font-size: 1rem;
+    color: #a0aec0;
+    margin-bottom: 1rem;
+  }
+  
+  /* Linki do mediów społecznościowych */
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    color: #cbd5e0;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-link i {
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+  }
+  
+  /* Efekt hover */
+  .social-link:hover {
+    color: #63b3ed;
+    transform: translateY(-3px);
+  }
+  
+  /* Animacja ikony */
+  .social-link i {
+    transition: transform 0.3s ease;
+  }
+  
+  .social-link:hover i {
+    transform: scale(1.2);
+  }
+  
